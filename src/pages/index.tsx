@@ -16,7 +16,7 @@ export default function Home() {
       <div className="flex flex-wrap w-3/6 justify-around">
         <MenuItem icone={ <IconForms /> } texto="Estado" url="/revisao/estado" />
         <MenuItem icone={ <IconArrowDown /> } texto="Comunicacao" url="/revisao/comunicacao" />
-        <MenuItem icone={ <IconNumbers /> } texto="Básico" url="/basico" />
+        <MenuItem icone={ <IconNumbers /> } texto="Básico Contexto" url="/basico" />
       </div>
     </div>
   );
