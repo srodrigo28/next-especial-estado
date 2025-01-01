@@ -10,6 +10,7 @@ export default function Area( props:  AreaProps, ){
             bg-${props.cor}-500
             flex mb-10 flex-col items-center
             rounded-md w-full
+            mx-auto
         `}>
             <div className={
                 ` p-5 ${props.sumario ? 'justify-between' : 'justify-center'}
@@ -18,11 +19,14 @@ export default function Area( props:  AreaProps, ){
             }>
                 <span className="px-4">{props.titulo}</span>
                 {props.sumario && ( <span className="
+                    animate-pulse
                     rounded-md py-2 hover:opacity-100 px-2 ml-2 
                     font-semibold tracking-widest"> {props.sumario} </span>
                 )}
             </div>
-            <div className="p-7 flex items-center gap-3">{ props.children }</div>
+            <div className="p-10 flex flex-col justify-center items-center gap-3">
+                { props.children }
+            </div>
         </div>
     )
 }
