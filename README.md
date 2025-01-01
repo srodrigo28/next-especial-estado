@@ -8,7 +8,7 @@ npm install @tabler/icons-react
 <img src="./screens/page-2-estados.png" alt="page 2">
 
 * 3 - Contexto
-<img src="./screens/page-2.png" alt="page 2">
+<img src="./screens/page-3-contexto.png" alt="page 2">
 
 * 4 - Lojinha
 <br />
