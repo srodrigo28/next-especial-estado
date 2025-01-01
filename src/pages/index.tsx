@@ -1,5 +1,5 @@
 import MenuItem from "@/components/template/MenuItem";
-import { IconArrowDown, IconForms } from "@tabler/icons-react";
+import { IconArrowDown, IconForms, IconNumbers } from "@tabler/icons-react";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
       <div className="flex flex-wrap w-3/6 justify-around">
         <MenuItem icone={ <IconForms /> } texto="Estado" url="/revisao/estado" />
         <MenuItem icone={ <IconArrowDown /> } texto="Comunicacao" url="/revisao/comunicacao" />
+        <MenuItem icone={ <IconNumbers /> } texto="Básico" url="/basico" />
       </div>
     </div>
   );
